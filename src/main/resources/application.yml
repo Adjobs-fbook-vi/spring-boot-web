@@ -1,0 +1,16 @@
+server:
+  port: 8888
+  
+spring:
+  application:
+    name: spring-boot-web
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/study_data?useSSL=false&serverTimezone=UTC
+    username: devolpment
+    password: devolpment
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
